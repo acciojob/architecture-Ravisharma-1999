@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architectural Information</title>
+    <style>
+        body {
+            width: 1100px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .imageContainer {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .imageContainer img {
+            width: 100%;
+            max-width: 1100px;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        td:first-child, td:last-child {
+            width: 200px;
+        }
+        td:nth-child(2) {
+            width: 600px;
+        }
+        .tableImage {
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <div class="imageContainer">
+        <img src="path_to_your_image.jpg" alt="Architecture Image">
+    </div>
+
+    <table>
+        <tr>
+            <td><img src="path_to_your_image.jpg" alt="Image 1" class="tableImage"></td>
+            <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</td>
+            <td><img src="path_to_your_image.jpg" alt="Image 2" class="tableImage"></td>
+        </tr>
+        <tr>
+            <td><img src="path_to_your_image.jpg" alt="Image 3" class="tableImage"></td>
+            <td>Curabitur cursus, ligula eget suscipit varius, nulla turpis facilisis augue, eget ultrices urna ligula nec urna.</td>
+            <td><img src="path_to_your_image.jpg" alt="Image 4" class="tableImage"></td>
+        </tr>
+    </table>
 
 </body>
-
 </html>
